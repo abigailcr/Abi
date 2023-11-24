@@ -1,0 +1,182 @@
+body, html {
+    /* height: 100%; */
+     margin: 0;
+     background-color: #000000cc;
+     color: white;
+     border:1px solid #ff2ca7cc;
+     border-radius: 10px;
+     font-family: 'Open Sans', sans-serif;
+   }
+   .p {
+    font-family: 'Open Sans', sans-serif;
+   }
+
+   img{
+     border-radius: 10px;
+     height: 600px;
+   }
+   .fotoplek{
+     margin-left: 1000px;
+   }
+   
+   .project{
+     height: fit-content;
+     border-radius: 10px;
+   }
+   
+   
+   .cv{
+     background-color: white;
+     border-radius: 10px;
+     text-align: center;
+     color:white;
+     font-size: medium;
+     text-decoration: dotted;
+   }
+   
+   .bgimg-1 {
+     position: relative;
+     opacity: 0.65;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
+   .bgimg-1 {
+     background-image: url("../images/fotografie-1057.jpg");
+     height: 50%;
+     border-radius: 10px;
+   }
+   .container3 {
+     background-color: #f0f8ff00;
+   }
+   p {
+     font-family: 'Prata', serif;
+     line-height: 170%;
+   }
+   /* ---------- begin navigatie ------------- */
+
+   .navbar{
+    position:fixed;
+    color:rgb(255, 255, 255);
+    background-color: #ff6fbcb2;
+    border-radius: 10px;
+   }
+   .navbar a {
+       color: #ffffff;
+       font-size: 1.2em;
+       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   /*    position:fixed;
+       float:left;*/
+       
+   }
+   .navbar a:hover {
+       color: #ff019e;
+   }
+   .nav-link.active {
+       border-bottom: 2px solid rgb(255, 255, 255);
+   }
+   /* ---------- einde navigatie ------------- */
+   
+   .textfoto {
+     background-color: #ffffff7a;
+     width: 50%;
+     margin: 200px auto;
+     padding: 50px;
+     color: #ffffff;
+     text-align: center;
+     border-radius: 10px;
+   }
+
+   
+   .fotografie {
+    box-sizing: border-box;
+    display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+   }
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+   .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+  }
+
+   .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+   .ruimtetopbottom {
+     margin-top: 50px;
+     margin-bottom: 50px;
+   }
+   /* ------------ begin card ------------ */
+   .card {
+     box-shadow: 0 4px 8px 0 rgba(255, 254, 254, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   
+   * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+
+   .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+   
+   
+   
+   /* ------------ einde card ------------ */
+   
+   /* ------------ begin footer ------------ */
+   .footer {
+     background-color: #47152f;
+     color: #ffffff;
+     border-radius: 10px;
+   }
+   .ruimtetop {
+     padding-top: 40px;
+     padding-bottom: 40px;
+     padding-left: 100px;
+   }
+   .footer a {
+       color: #ffffff;
+       font-size: 1em;
+       font-family: 'Open Sans', sans-serif;
+   }
+   .footer a:hover {
+       color: #ff16b1d5;
+   }
+   
+   
+   /* ------------ einde footer ------------ */
+   
+   
+   
+   
+   /* Show it's not fixed to the top */
+   body {
+     min-height: 75rem;
+   }
+   
+   
